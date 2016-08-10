@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyTraffic</string>
+
+
+    <!--接口-->
+    <!--基础信息相关-->
+    <string name="mobileLogin">mobileLogin.do</string>
+    <!--添乘情况分类-->
+    <string name="mobileBurst">mobileBurst.do</string>
+    <!--出退乘相关-->
+    <string name="guardReport">guardReport.do</string>
+    <!--添乘情况-->
+    <string name="grtcqk">grtcqk.do</string>
+    <!--情况上报-->
+    <string name="grqksb">grqksb.do</string>
+    <!--突发情况-->
+    <string name="grtfqk">grtfqk.do</string>
+    <!--公用接口-->
+    <string name="fileUpload">fileUpload.do</string>
+    <string name="updateApp">updateApp.do</string>
+    <!--投诉情况-->
+    <string name="grtsqk">grtsqk.do</string>
+    <!--反应问题-->
+    <string name="grfywt">grfywt.do</string>
+    <!--其他情况-->
+    <string name="grqtqk">grqtqk.do</string>
+    <!--乘务报告-->
+    <string name="grrr">grrr.do</string>
+</resources>

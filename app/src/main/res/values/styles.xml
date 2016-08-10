@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimaryDark">@color/dark</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <!--标题栏颜色-->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <!--状态栏颜色(透明)-->
+        <item name="android:colorPrimaryDark">#00000000</item>
+        <!--progressBar颜色,等,不可选的?-->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!--背景-->
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <!--控件未选中颜色-->
+        <item name="android:colorControlNormal">@color/iron</item>
+        <!--控件选中颜色-->
+        <item name="android:colorControlActivated">@color/base</item>
+        <!--选中高亮-->
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <!--文字注释颜色-->
+        <item name="android:textColorHint">@color/iron</item>
+        <!--按钮未选中-->
+        <item name="colorButtonNormal">@color/primary_darker</item>
+        <item name="android:colorButtonNormal">@color/primary_darker</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <!--控件颜色-->
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+
+</resources>
